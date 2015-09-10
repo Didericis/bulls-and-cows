@@ -2,6 +2,10 @@
 
 This is a matlab program I wrote for an engineering class in 2011 while at Trinity College. It plays a version of the Bulls and Cows game in which only the number of Bulls are revealed. It wins after about 7.8 tries, with a standard deviation of about 1.38. 
 
+### How to use
+
+To run, navigate to the directory after cloning it and type "run Bulls_and_cows_main" in the matlab command line. A sample "randomDigits.txt" file is provided to supply the numbers the program will try to guess. If you want to supply your own random numbers, simply edit this file.
+
 ### The Game
 
 A synopsis of the game can be found [on wikipedia](https://en.wikipedia.org/wiki/Bulls_and_Cows). In this particular version, the goal is to guess a 4 digit number in as few guesses as possible. After each guess, the computer is told how many digits are correct. Once all the digits are guessed, the game ends.
